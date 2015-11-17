@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Registro de evento</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body background="">
+        <form action="">
+            <CENTER><h2>REGISTRO DE EVENTO</h2>
+           <hr size="1px" width="90%" align="center" color="black"
+
+            <br><br>
+            <p>Completa los siguietes campos:</p>
+            <p>Nombre del evento: <input type="text" name="nombreEvento"></p>
+            <p>Ubicación: <input type="text" name="nombreEvento"></p>
+            <p>Fecha: <input type="date" name="nombreEvento">&nbsp;<image src="imagenes/mas.png" style="width: 15px; height: 15px"><!--Debe poder agregar más fechas--></p>
+            <p>Tipo de evento: 
+                <select>
+                    <option disabled="">Seleccione un tipo</option>
+                </select>
+            </p>
+            <p>Disponiblidad <input type="number"></p>
+            <p>Requerimientos mínimos:</p>
+            <p> <textarea id="rminimos" style="width: 230px; height: 75px"></textarea></p>
+            <p>Restricciones:</p>
+            <p> <textarea id="restricciones" style="width: 230px; height: 75px"></textarea></p>
+            <p>Descripción:</p>
+            <p> <textarea id="descripcion" style="width: 230px; height: 75px"></textarea></p>
+            <p>Galería:</p>
+            <div style="width: 100%; height: 80%; float: left">
+                   <img src="../Assets/Iconos/imagen-no-disponible.png" style="width: 25%; height: 50%">
+            &nbsp;&nbsp;&nbsp;
+            <img src="../Assets/Iconos/mas.png"  style="width: 20px; height: 20px; float: bottom">
+            </div>
+            <input type="submit" id="registraEvento" value="Realizar">
+            </center>
+        </form>
+     </body>
+</html>
